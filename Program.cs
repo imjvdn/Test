@@ -14,10 +14,10 @@ namespace userInput
            string name =  Console.ReadLine();
             Console.Write("Enter your age: ");
            string age = Console.ReadLine();
-            Console.Write("Enter your favorite brand: ");
+            Console.Write("Enter your favorite band: ");
            string color = Console.ReadLine();
 
-            Console.WriteLine("Hello " + name + ", you are " + age + " and your favorite food is " + food + ".");
+            Console.WriteLine("Hello " + name + ", you are " + age + " and your favorite band is " + band + ".");
 
             Console.ReadLine();
         }
